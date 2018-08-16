@@ -39,7 +39,7 @@ uint16_t commonTest3Func4 (uint16_t initial_value_u16)
     uint16_t result_u16;
 
 
-    result_u16 = initial_value_u16 + 1;
+    result_u16 = (initial_value_u16 + 1) + 32;
 
     return (result_u16);           
 }
@@ -50,7 +50,7 @@ uint16_t commonTest3Func5 (uint16_t initial_value_u16)
     uint16_t result_u16;
 
 
-    result_u16 = initial_value_u16 * 7;
+    result_u16 = (initial_value_u16 * 7) + 47;
 
     return (result_u16);           
 }
